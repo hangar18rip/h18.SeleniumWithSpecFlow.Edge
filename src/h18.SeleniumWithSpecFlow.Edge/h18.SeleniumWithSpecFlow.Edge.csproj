@@ -35,9 +35,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="SpecFlow.json">
+    <None Include="SpecFlow.json">
+      <Pack>true</Pack>
+      <PackageCopyToOutput>true</PackageCopyToOutput>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
+    </None>
   </ItemGroup>
 
 </Project>
