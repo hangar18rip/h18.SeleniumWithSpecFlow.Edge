@@ -6,18 +6,18 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 
     <Authors>Olivier Delmotte</Authors>
-    <Description></Description>
+    <Description>Adds extended features when running Selenium tests with SpecFlow, MSTest framework and Microsoft Edge Chromium</Description>
 
     <NuspecProperties></NuspecProperties>
     <AssemblyInformationalVersionAttribute>No value at edit time</AssemblyInformationalVersionAttribute>
     <RepositoryCommit></RepositoryCommit>
     <RepositoryBranch></RepositoryBranch>
     <RepositoryType>git</RepositoryType>
-    <RepositoryUrl>https://github.com/hangar18rip/h18.SeleniumWithSpecFlow.git</RepositoryUrl>
+    <RepositoryUrl>https://github.com/hangar18rip/h18.SeleniumWithSpecFlow.Edge.git</RepositoryUrl>
     <IncludeSource>false</IncludeSource>
     <Copyright>Olivier Delmotte</Copyright>
     <PackageTags>Selenium,Specflow,Edge</PackageTags>
-    <PackageProjectUrl>https://github.com/hangar18rip/h18.SeleniumWithSpecFlow</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/hangar18rip/h18.SeleniumWithSpecFlow.Edge</PackageProjectUrl>
     <PackageLicenseExpression></PackageLicenseExpression>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
@@ -29,7 +29,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="h18.SeleniumWithSpecFlow" Version="0.1.0.5" />
+    <PackageReference Include="h18.SeleniumWithSpecFlow" Version="0.1.0.7" />
     <PackageReference Include="Microsoft.Edge.SeleniumTools" Version="3.141.2" />
     <PackageReference Include="Selenium.WebDriver.MSEdgeDriver" Version="86.0.622.38" />
   </ItemGroup>
