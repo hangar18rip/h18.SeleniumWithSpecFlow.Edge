@@ -17,13 +17,13 @@ namespace h18.SeleniumWithSpecFlow.Edge.UnitTests
         [BeforeScenario()]
         public void BeforeScenario()
         {
-            context.Add("driverConfiguraiton", new EdgeHookConfiguration { WindowsState = WindowsState.Maximize });
+            context.Add(Keys.DriverConfigurationRegistrationKey, new EdgeHookConfiguration { WindowsState = WindowsState.Maximize });
         }
 
         [Given(@"the first number is (.*)")]
         public void GivenTheFirstNumberIs(int p0)
         {
-            var driver = context.Get<EdgeDriver>("currentDriver");
+            var driver = context.Get<EdgeDriver>(Keys.DriverRegistrationKey);
             driver.Manage().Window.FullScreen();
             driver.Navigate().GoToUrl("https://www.microsoft.com");
         }
