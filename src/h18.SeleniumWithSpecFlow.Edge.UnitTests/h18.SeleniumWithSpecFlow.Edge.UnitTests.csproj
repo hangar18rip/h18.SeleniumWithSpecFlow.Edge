@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="h18.SeleniumWithSpecFlow" Version="0.1.0.8" />
+    <PackageReference Include="h18.SeleniumWithSpecFlow" Version="0.1.1.1" />
     <PackageReference Include="Microsoft.CodeCoverage" Version="16.8.0" />
     <PackageReference Include="Microsoft.Edge.SeleniumTools" Version="3.141.2" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.8.0" />

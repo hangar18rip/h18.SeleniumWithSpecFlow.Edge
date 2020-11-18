@@ -3,7 +3,7 @@ using TechTalk.SpecFlow;
 
 namespace h18.SeleniumWithSpecFlow.Edge
 {
-    public class EdgeHook : HookBase<EdgeDriver, EdgeOptions, EdgeHookConfiguration>
+    public class EdgeHook : HookBase<EdgeDriver, EdgeOptions>
     {
         public EdgeHook(ScenarioContext context) : base(context)
         {
@@ -13,6 +13,11 @@ namespace h18.SeleniumWithSpecFlow.Edge
         {
             options.UseChromium = true;
             return new EdgeDriver(options);
+        }
+
+        protected override HookConfigurationBase<EdgeOptions> GetDefaultConfiguration()
+        {
+            return new EdgeHookConfiguration();
         }
     }
 }
