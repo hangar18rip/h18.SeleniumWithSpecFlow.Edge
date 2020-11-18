@@ -21,6 +21,7 @@
     <PackageLicenseExpression></PackageLicenseExpression>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
+  
   <ItemGroup>
     <None Include="..\..\LICENSE" Link="LICENSE">
       <PackagePath></PackagePath>
@@ -29,7 +30,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="h18.SeleniumWithSpecFlow" Version="0.1.0.7" />
+    <PackageReference Include="h18.SeleniumWithSpecFlow" Version="0.1.0.8" />
     <PackageReference Include="Microsoft.Edge.SeleniumTools" Version="3.141.2" />
     <PackageReference Include="Selenium.WebDriver.MSEdgeDriver" Version="86.0.622.38" />
   </ItemGroup>
