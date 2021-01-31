@@ -14,6 +14,7 @@ resources:
   - repository: pipelines  # identifier (A-Z, a-z, 0-9, and underscore)
     type: github  # see the following "Type" topic
     name: hangar18rip/azdo-pipeline-library
+    ref: 'refs/heads/bug/browerinstall'
     endpoint: 'hangar18rip'
 
 extends:
