@@ -30,7 +30,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="h18.SeleniumWithSpecFlow" Version="0.1.1.6" />
+    <PackageReference Include="h18.SeleniumWithSpecFlow" Version="0.1.1.9" />
     <PackageReference Include="Microsoft.Edge.SeleniumTools" Version="3.141.2" />
     <PackageReference Include="Selenium.WebDriver.MSEdgeDriver" Version="87.0.669" />
   </ItemGroup>
