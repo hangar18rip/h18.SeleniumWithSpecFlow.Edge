@@ -15,7 +15,7 @@ resources:
     type: github  # see the following "Type" topic
     name: hangar18rip/azdo-pipeline-library
     endpoint: 'hangar18rip'
-    # ref: 'refs/heads/bug/browerinstall'
+    ref: 'refs/heads/bug/browerinstall'
 
 extends:
   template: h18.SeleniumWithSpecFlow.yml@pipelines
